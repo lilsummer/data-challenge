@@ -1,0 +1,10 @@
+Model	AUC
+UnderSampling+SelectK+DecisionTree	0.81
+UnderSampling+SelectK+AdaBoost	0.79
+UnderSampling+SelectK+LogisticRegression	0.77
+UnderSampling+SelectK+NaiveBayes	0.64
+UnderSampling+SelectK+QDA	0.66
+UnderSampling+SelectK+RandomForest	0.83
+UnderSampling+SelectK+GradientBoosting	0.81
+Undersampling+selectK+votingClassifier(RandomForest+DecisionTree+GradientBoosting)	0.83
+
